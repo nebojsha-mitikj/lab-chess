@@ -1,0 +1,9 @@
+<x-app-layout>
+    <trainer-position
+        :user-configuration="{{$userConfiguration}}"
+        :next-position="{{$nextPosition}}"
+        :trainer="{{$trainer}}"
+        :variant="{{$variant}}"
+        :position="{{$position}}"
+    ></trainer-position>
+</x-app-layout>
